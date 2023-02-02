@@ -9,10 +9,9 @@ Cosine similarity can be computed amongst arbitrary vectors.
 It is a similarity measure (which can be converted to a distance measure, and then be used in any distance based classifier, such as nearest neighbor classification.)
 
 cosφ=a⋅b∥a∥∥b∥
-Where a and b are whatever vectors you want to compare.
+Where 'a' and 'b' are the vectors you want to compare.
 
-If you want to do NN classification, you would use a as your new document, and b as your known sample documents, then classify the new document based on the most similar sample(s).
+If you want to do NN classification, you would use 'a' as your new document, and 'b' as your known sample documents, then classify the new document based on the most similar sample(s).
 
 
-<br>
-Also, the code kinda looks rough right now but I'd improve it and make this project a website, with some added features in the future. 
+
